@@ -1,8 +1,10 @@
+import ProductsUi from './components/ProductsUi';
+
 const App = () => {
     return ( 
-        <div className="app">
-            App
-        </div> 
+        <>
+            <ProductsUi />
+        </>
     );
 }
  

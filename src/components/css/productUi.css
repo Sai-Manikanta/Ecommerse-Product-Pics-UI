@@ -1,0 +1,28 @@
+.product-pics {
+  display: flex;
+  max-width: 550px;
+  padding: 20px;
+}
+.main-pic {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-pic img {
+  padding: 20px;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+}
+.select-pics {
+  display: flex;
+  flex-direction: column;
+}
+.tiny-pic {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border: 1px solid silver;
+  padding: 8px;
+}
