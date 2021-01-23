@@ -1,7 +1,9 @@
 .product-pics {
   display: flex;
   max-width: 550px;
-  padding: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin: 10px;
 }
 .main-pic {
   flex: 1 1 0;
