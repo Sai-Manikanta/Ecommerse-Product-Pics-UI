@@ -25,4 +25,9 @@
   object-fit: contain;
   border: 1px solid silver;
   padding: 8px;
+  cursor: pointer;
+  border-bottom: none;
+}
+.tiny-pic:last-child {
+  border: 1px solid silver;
 }
