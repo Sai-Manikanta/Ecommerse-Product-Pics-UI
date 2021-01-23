@@ -33,3 +33,13 @@
 .tiny-pic:last-child {
   border: 1px solid silver;
 }
+
+@media screen and (max-width: 600px) {
+  .product-pics {
+    flex-direction: column;
+  }
+  .select-pics {
+    flex-direction: row;
+    order: 10;
+  }
+}
